@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Word Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Word Guessing Game 🔤</h1>
+        <p class="description">Select the correct letters to guess the hidden word before you run out of lives!</p>
+        
+        <div class="hint-box">
+            <span>Hint: </span>
+            <strong id="hintText">...</strong>
+        </div>
+
+        <div class="word-display" id="wordDisplay"></div>
+
+        <div class="status-box">
+            <p>Lives Remaining: <span id="lives">5</span> ❤️</p>
+        </div>
+
+        <div class="keyboard" id="keyboard"></div>
+
+        <button id="resetBtn" class="reset-btn">New Word 🔄</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
